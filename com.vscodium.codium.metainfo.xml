@@ -51,6 +51,18 @@
   <launchable type="desktop-id">com.vscodium.codium.desktop</launchable>
   <content_rating type="oars-1.1" />
   <releases>
+    <release version="1.106.37943" date="2025-11-26" urgency="low">
+      <description>
+        <p>What's Changed</p>
+        <ul>
+          <li>update vscode to 1.106.3</li>
+          <li>fix: don't try to load missing vsda library by @daiyam in #2613</li>
+          <li>fix: re-add usersync service by @daiyam in #2612</li>
+          <li>Full Changelog: https://github.com/VSCodium/vscodium/compare/1.106.37938...1.106.37943</li>
+        </ul>
+      </description>
+      <url>https://github.com/VSCodium/vscodium/releases/tag/1.106.37943</url>
+    </release>
     <release version="1.106.37938" date="2025-11-26" urgency="low">
       <description>
         <p>What's Changed</p>
