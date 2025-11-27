@@ -51,12 +51,37 @@
   <launchable type="desktop-id">com.vscodium.codium.desktop</launchable>
   <content_rating type="oars-1.1" />
   <releases>
+    <release version="1.106.27818" date="2025-11-21" urgency="low">
+      <description>
+        <p>What's Changed</p>
+        <ul>
+          <li>update vscode to 1.106.2</li>
+          <li>build(deps): bump signpath/github-action-submit-signing-request from 1 to 2 by
+            @dependabot[bot] in #2579</li>
+          <li>build(deps): bump actions/upload-artifact from 4 to 5 by @dependabot[bot] in #2580</li>
+          <li>build(deps): bump actions/download-artifact from 5 to 6 by @dependabot[bot] in #2581</li>
+          <li>feat(1.106): update patches by @daiyam in #2590</li>
+          <li>fix(cli): load user's product.json by @daiyam in #2595</li>
+          <li>fix(icon): increase macos max size by @daiyam in #2596</li>
+          <li>fix(update): avoid extra connection on manual mode by @daiyam in #2597</li>
+          <li>Add extensionsEnabledWithApiProposalVersion to product.json by @qkdreyer in #2598</li>
+          <li>feat(1.106): use newer electron by @daiyam in #2606</li>
+          <li>Full Changelog: https://github.com/VSCodium/vscodium/compare/1.105.17075...1.106.27818</li>
+        </ul>
+        <p>New Contributors</p>
+        <ul>
+          <li>@qkdreyer made their first contribution in #2598</li>
+        </ul>
+      </description>
+      <url>https://github.com/VSCodium/vscodium/releases/tag/1.106.27818</url>
+    </release>
     <release version="1.105.17075" date="2025-10-21" urgency="low">
       <description>
         <p>What's Changed</p>
         <ul>
           <li>update vscode to 1.105.1</li>
-          <li>fix(copilot): use disableAIFeatures setting instead of installed property by @daiyam in #2567</li>
+          <li>fix(copilot): use disableAIFeatures setting instead of installed property by @daiyam
+            in #2567</li>
           <li>build(deps): bump actions/setup-node from 5 to 6 by @dependabot[bot] in #2568</li>
           <li>Full Changelog: https://github.com/VSCodium/vscodium/compare/1.105.17017...1.105.17075</li>
         </ul>
